@@ -328,7 +328,7 @@ header .row {
 .feature__para {
     margin-top: 16px;
     font-size: 16px;
-    max-width: clac(100% / 3);
+    max-width: calc(100% / 3);
     color: rgb(124, 139, 161);
     line-height: 2;
     font-weight: 500;
@@ -859,7 +859,7 @@ header .row {
     z-index: 2;
 }
 
-.tstimonial__button svg {
+.testimonial__button svg {
     width: 16px;
     height: 16px;
 }
@@ -951,7 +951,7 @@ header .row {
     right: 0px;
     height: 20rem;
     width: 20rem;
-    tansform: translate(5rem, -16rem);
+    transform: translate(5rem, -16rem);
     color: rgb(80 17 204);
     opacity: 0.5;
 }
@@ -1609,11 +1609,16 @@ footer {
     }
 
     .start__buttons {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
         align-items: center;
     }
 
     .start__button:nth-child(1) {
+        width: 100%;
+        justify-content: center;
         margin-right: 0;
     }
 
